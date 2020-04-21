@@ -240,7 +240,7 @@ Suppose you want to create a custom Anaconda environment with the ``mdtraj`` pac
         (root) ~$ conda create --name mymdtraj mdtraj
         (root) ~$ source activate mymdtraj
         (mymdtraj) ~$ conda install ipykernel
-        (mymdtraj) ~$ source deactivate
+        (mymdtraj) ~$ conda deactivate
         ~$ mv ~/.conda/envs/mymdtraj/share/jupyter/kernels/python3 ~/.local/share/jupyter/kernels/mymdtraj
         ~$ open ~/.local/share/jupyter/kernels/mymdtraj/kernel.json
         ## change display_name from "Python 3" to "My mdtraj" and save the file
